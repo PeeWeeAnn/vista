@@ -1,0 +1,35 @@
+@import "../variables";
+
+.authorization {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.authorization-signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color--main;
+
+  &__link {
+    color: $color-text--white;
+    font-size: 7.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.authorization-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: $color--white;
+
+  &__link {
+    color: $color-text--main;
+    font-size: 7.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
