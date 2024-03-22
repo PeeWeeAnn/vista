@@ -3,16 +3,16 @@ import '@/styles/pages/Auth.scss';
 
 function Auth() {
   return (
-      <section className="authorization-section">
-        <div className="authorization-wrapper">
+      <section className="authorizationSection">
+        <div className="authorizationWrapper">
           <div className="authorization">
-            <div className="authorization__signup authorization-signup">
-              <Link className="authorization-signup__link" to="/signup">
+            <div className="authorizationSignup">
+              <Link className="authorizationSignupLink" to="/signup">
                 Sign up
               </Link>
             </div>
-            <div className="authorization__login authorization-login">
-              <Link className="authorization-login__link" to="/login">
+            <div className="authorizationLogin">
+              <Link className="authorizationLoginLink" to="/login">
                 Log in
               </Link>
             </div>

@@ -6,13 +6,13 @@
   height: 100vh;
 }
 
-.authorization-signup {
+.authorizationSignup {
   display: flex;
   justify-content: center;
   align-items: center;
   background: $color--main;
 
-  &__link {
+  &Link {
     color: $color-text--white;
     font-size: 7.5rem;
     font-weight: 700;
@@ -20,13 +20,13 @@
   }
 }
 
-.authorization-login {
+.authorizationLogin {
   display: flex;
   justify-content: center;
   align-items: center;
   background: $color--white;
 
-  &__link {
+  &Link {
     color: $color-text--main;
     font-size: 7.5rem;
     font-weight: 700;

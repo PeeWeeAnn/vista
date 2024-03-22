@@ -2,10 +2,10 @@ import '@/styles/pages/SignUp.scss';
 
 function SignUp() {
   return (
-      <section className="signup-section">
-        <div className="signup-wrapper">
+      <section className="signupSection">
+        <div className="signupWrapper">
           <div className="signup">
-            <h1 className="signup__heading">
+            <h1 className="signupHeading">
               Sign Up
             </h1>
           </div>
