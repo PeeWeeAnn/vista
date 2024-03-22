@@ -1,15 +1,15 @@
-import {useEffect} from "react";
-import {useNavigate} from "react-router-dom";
-import "./styles/reset.css";
-import "./styles/variables.scss";
-import "./styles/App.scss";
+import { useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
+import '@/styles/reset.css';
+import '@/styles/variables.scss';
+import '@/styles/App.scss';
 
 function App() {
   const navigate = useNavigate();
 
   useEffect(() => {
     window.setTimeout(() => {
-      navigate("/auth");
+      navigate('/auth');
     }, 3000);
   });
 
